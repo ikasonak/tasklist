@@ -39,6 +39,7 @@ public class Task {
     @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
 
+
     public Integer getId() {
         return id;
     }
@@ -54,6 +55,7 @@ public class Task {
     public void setTitle(String title) {
         this.title = title;
     }
+
 
     public String getContent() {
         return content;
@@ -78,4 +80,6 @@ public class Task {
     public void setUpdated_at(Timestamp updated_at) {
         this.updated_at = updated_at;
     }
+
+
 }
